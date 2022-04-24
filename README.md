@@ -1,4 +1,4 @@
-# Arbitrage
+# Detecting Arbitrage in FX Markets
 MATH 260 Final Project
 
 This project is centered on the use of the Bellman-Ford algorithm in detecting arbitrage opportunities among a group of currency exchanges rates. Arbitrage here corresponds to finding a cycle of currencies that, when converted between each other in a specific order, result in a net increase in value when returned to the original currency. The BellmanFord algorithm is typically used to find the shortest path between two vertices in a weighted, directed graph. However, with a clever setup, we can use this algorithm to detect arbitrage cycles.
